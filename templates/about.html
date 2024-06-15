@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+    <h1>About</h1>
+    <form action="/update_data" method="POST">
+        <button type="submit">Update Data</button>
+    </form>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+    <a href="/">Back to Home</a>
+</body>
+</html>
+
