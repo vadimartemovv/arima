@@ -20,12 +20,12 @@
 2. Сборка Docker образа
 Откройте терминал (командную строку) и перейдите в каталог проекта, где находится файл Dockerfile и requirements.txt. Выполните следующую команду для сборки Docker образа:
 
-docker build -t flask-arima-app .
+    'docker build -t flask-arima-app .'
 
 3. Запуск Docker контейнера
 После успешной сборки Docker образа, выполните следующую команду для запуска Docker контейнера:
 
-docker run -p 8001:8001 flask-arima-app
+    'docker run -p 8001:8001 flask-arima-app'
 
 4. Доступ к приложению
 После запуска контейнера приложение будет доступно по адресу http://localhost:8001 в вашем веб-браузере.
